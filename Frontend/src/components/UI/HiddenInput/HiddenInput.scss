@@ -1,0 +1,23 @@
+@import "../../../styles/color";
+
+.hidden_input input {
+  background-color: rgba(0, 0, 0, 0.0);
+  min-width: 100px;
+  border: none;
+  color: $white;
+
+  &:disabled {
+    color: $white;
+  }
+
+  &:focus {
+    color: $red;
+  }
+}
+
+.hidden_textarea_add_book {
+  text-align: left;
+  min-width: 100px;
+  margin-left: 5px;
+  height: 1.9em;
+}

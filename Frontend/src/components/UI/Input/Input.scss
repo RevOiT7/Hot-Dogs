@@ -1,0 +1,75 @@
+@import "../../../styles/color";
+
+.input_wrap {
+  position: relative;
+  height: 55px;
+  .input_label {
+    color: $grey-second;
+    position: absolute;
+    left: 1px;
+    bottom: 10px;
+    z-index: 0;
+    -webkit-transition: bottom 0.5s;
+    transition: bottom 0.5s;
+  }
+  .input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid $grey-second;
+    width: 14.2%;
+    padding: 10px 1px;
+    position: absolute;
+    bottom: 0;
+    -webkit-transition: border-bottom 0.5s;
+    transition: border-bottom 0.5s;
+  }
+
+  .input_label__focus {
+    bottom: 40px;
+  }
+}
+.input_big {
+  width: 23.8%;
+  padding: 20px 1px;
+}
+.input_little {
+  width: 5.1%;
+  padding: 20px 1px;
+}
+.input_contact_wrap {
+  height: 100px;
+  position: relative;
+  width: 100%;
+  .input_contact {
+    width: 100%;
+    color: $grey-second;
+  }
+  .contact_label {
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+  }
+}
+.input_reset_pass {
+  height: 100px;
+  position: relative;
+  width: 300px;
+  .reset_pass {
+    width: 100%;
+    color: $black;
+  }
+  .reset_pass_label {
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+  }
+}
+
+.errorText {
+  color: red;
+  padding-top: 100px;
+}

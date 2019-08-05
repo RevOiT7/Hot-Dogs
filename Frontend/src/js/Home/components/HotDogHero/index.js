@@ -1,0 +1,1 @@
+export { default as HotDogHero } from './HotDogHero.js'
